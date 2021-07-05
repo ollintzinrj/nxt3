@@ -1,0 +1,19 @@
+.btn-primary{
+  background-color: #d63384;
+  border-color: #fff;
+}
+
+.btn-primary:hover{
+  background-color: #dc3545;
+  border-color: #fff;
+}
+
+.icon{
+  color: #d63384;
+  font-size: 32px;
+}
+
+.footer{
+  background-color: #F6F7F9;
+  padding: 2rem 2rem;
+}

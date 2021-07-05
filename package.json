@@ -1,0 +1,35 @@
+{
+  "name": "nxt3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js",
+    "webpack": "webpack --mode=development",
+    "start": "npm ./src/server.js"
+  },
+  "keywords": [],
+  "author": "OllintzinRJ",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.19",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.7",
+    "vue-resource": "^1.5.2",
+    "vue-router": "^3.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.9",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0"
+  }
+}
